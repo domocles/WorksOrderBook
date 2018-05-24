@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "domocles",
+    "baseName": "WorksOrderBook",
+    "packageName": "com.eep.wo",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.4",
+    "packageFolder": "com/eep/wo",
+    "jwtSecretKey": "56eeca2280fb921d016b3f1f082aaa2e6654c5e9",
+    "jhiPrefix": "jhi"
+  }
+}
