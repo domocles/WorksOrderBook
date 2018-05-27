@@ -20,6 +20,13 @@ entity Customer {
     customerDescription String required
 }
 
+entity Product {
+	MPN String required,
+    partName String required,
+    partDescription String,
+    image ImageBlob
+}
+
 relationship OneToOne {
 	Customer{billingAddress} to Address{customer},
     Customer{deliveryAddress} to Address{deliveryCustomer}
