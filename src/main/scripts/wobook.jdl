@@ -1,0 +1,16 @@
+entity Supplier {
+	supplierName String required,
+    supplierDescription String required,
+    supplierTelephoneNumber String,
+    supplierEmail String,
+    supplierWebsite String
+}
+
+entity Address {
+	addressLine1 String required,
+    addressLine2 String,
+    town String,
+    county String,
+    postcode String required,
+    country String
+}
