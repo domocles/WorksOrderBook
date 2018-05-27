@@ -14,3 +14,13 @@ entity Address {
     postcode String required,
     country String
 }
+
+entity Customer {
+	customerName String required,
+    customerDescription String required
+}
+
+relationship OneToOne {
+	Customer{billingAddress} to Address{customer},
+    Customer{deliveryAddress} to Address{deliveryCustomer}
+}
