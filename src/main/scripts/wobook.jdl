@@ -55,3 +55,7 @@ relationship OneToOne {
 	Customer{billingAddress} to Address{customer},
     Customer{deliveryAddress} to Address{deliveryCustomer}
 }
+
+relationship OneToMany {
+    Product{productBOM} to BOM
+}
