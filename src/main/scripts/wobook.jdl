@@ -27,6 +27,20 @@ entity Product {
     image ImageBlob
 }
 
+entity Material {
+	materialName String required,
+    materialDescription String required,
+    materialImage ImageBlob
+}
+
+entity RawComponent {
+	rawComponentName String required,
+    rawComponentDescription String required,
+    rawComponentImage ImageBlob
+}
+
+
+
 relationship OneToOne {
 	Customer{billingAddress} to Address{customer},
     Customer{deliveryAddress} to Address{deliveryCustomer}
