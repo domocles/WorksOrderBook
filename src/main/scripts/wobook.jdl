@@ -39,7 +39,17 @@ entity RawComponent {
     rawComponentImage ImageBlob
 }
 
+entity BOM {
+	creationDate Instant required
+}
 
+entity BOMMaterialLine {
+	bomMaterialQty Double required
+}
+
+entity BOMComponentLine {
+	bomComponentLine Double required
+}
 
 relationship OneToOne {
 	Customer{billingAddress} to Address{customer},

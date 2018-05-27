@@ -44,6 +44,9 @@ public class CacheConfiguration {
             cm.createCache(com.eep.wo.domain.Product.class.getName(), jcacheConfiguration);
             cm.createCache(com.eep.wo.domain.Material.class.getName(), jcacheConfiguration);
             cm.createCache(com.eep.wo.domain.RawComponent.class.getName(), jcacheConfiguration);
+            cm.createCache(com.eep.wo.domain.BOM.class.getName(), jcacheConfiguration);
+            cm.createCache(com.eep.wo.domain.BOMMaterialLine.class.getName(), jcacheConfiguration);
+            cm.createCache(com.eep.wo.domain.BOMComponentLine.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

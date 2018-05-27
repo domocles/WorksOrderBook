@@ -6,6 +6,9 @@ import { WorksOrderBookCustomerModule } from './customer/customer.module';
 import { WorksOrderBookProductModule } from './product/product.module';
 import { WorksOrderBookMaterialModule } from './material/material.module';
 import { WorksOrderBookRawComponentModule } from './raw-component/raw-component.module';
+import { WorksOrderBookBOMModule } from './bom/bom.module';
+import { WorksOrderBookBOMMaterialLineModule } from './bom-material-line/bom-material-line.module';
+import { WorksOrderBookBOMComponentLineModule } from './bom-component-line/bom-component-line.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -16,6 +19,9 @@ import { WorksOrderBookRawComponentModule } from './raw-component/raw-component.
         WorksOrderBookProductModule,
         WorksOrderBookMaterialModule,
         WorksOrderBookRawComponentModule,
+        WorksOrderBookBOMModule,
+        WorksOrderBookBOMMaterialLineModule,
+        WorksOrderBookBOMComponentLineModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
